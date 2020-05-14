@@ -1,10 +1,12 @@
 package models;
 
+import java.util.List;
 import java.util.Objects;
 
 public class Department {
     private String name;
     private String description;
+    private Object users;
     private int id;
 
     public Department(String name, String description) {
@@ -23,6 +25,7 @@ public class Department {
     public int getId() {
         return id;
     }
+
 
     public void setId(int id) {
         this.id = id;
@@ -44,4 +47,11 @@ public class Department {
         return Objects.hash(name, description, id);
     }
 
+
+    public void saveUsers(Users testUsers) {
+    }
+
+    public  Object getUsers() {
+        return users;
+    }
 }

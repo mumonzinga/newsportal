@@ -2,10 +2,7 @@ package models.dao;
 
 import models.Users;
 import models.Department;
-import models.dao.Sql2oUsersDao;
-import models.dao.Sql2oDepartmentDao;
 import org.junit.After;
-import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.sql2o.Connection;
@@ -13,12 +10,12 @@ import org.sql2o.Sql2o;
 import static org.junit.Assert.*;
 
 public class Sql2oUsersDaoTest {
-    private  Sql2oUsersDao usersDao;
-    private  Sql2oDepartmentDao departmentDao;
-    private  Connection conn;
+    private static Sql2oUsersDao usersDao;
+    private static Sql2oDepartmentDao departmentDao;
+    private static Connection conn;
 
     @BeforeClass
-    public void setUp() throws Exception {
+    public static void setUp() throws Exception {
         String connectionString = "jdbc:postgresql://localhost:5432/newsportal_test";
         Sql2o sql2o = new Sql2o(connectionString, "mumo", "kyalelove");
         departmentDao = new Sql2oDepartmentDao(sql2o);

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="models.DepartmentTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-14T01:15:15" hostname="mumo-ThinkPad-S1-Yoga-12" time="0.0">
+  <properties/>
+  <testcase name="getNameReturnsCorrectName" classname="models.DepartmentTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

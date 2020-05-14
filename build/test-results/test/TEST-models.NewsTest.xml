@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="models.NewsTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-05-14T01:15:15" hostname="mumo-ThinkPad-S1-Yoga-12" time="0.013">
+  <properties/>
+  <testcase name="getWrittenBy" classname="models.NewsTest" time="0.002"/>
+  <testcase name="setContent" classname="models.NewsTest" time="0.0"/>
+  <testcase name="setId" classname="models.NewsTest" time="0.0"/>
+  <testcase name="setWrittenBy" classname="models.NewsTest" time="0.001"/>
+  <testcase name="setRating" classname="models.NewsTest" time="0.002"/>
+  <testcase name="getRating" classname="models.NewsTest" time="0.002"/>
+  <testcase name="setDepartmentId" classname="models.NewsTest" time="0.0"/>
+  <testcase name="getContent" classname="models.NewsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

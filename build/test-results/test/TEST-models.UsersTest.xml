@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="models.UsersTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-05-14T01:15:15" hostname="mumo-ThinkPad-S1-Yoga-12" time="0.007">
+  <properties/>
+  <testcase name="getAddressReturnsCorrectAddress" classname="models.UsersTest" time="0.001"/>
+  <testcase name="getPhoneReturnsCorrectPhone" classname="models.UsersTest" time="0.0"/>
+  <testcase name="setPhoneSetsCorrectPhone" classname="models.UsersTest" time="0.0"/>
+  <testcase name="setEmailSetsCorrectEmail" classname="models.UsersTest" time="0.0"/>
+  <testcase name="setZipSetsCorrectZip" classname="models.UsersTest" time="0.0"/>
+  <testcase name="getEmailReturnsCorrectEmail" classname="models.UsersTest" time="0.0"/>
+  <testcase name="getName" classname="models.UsersTest" time="0.001"/>
+  <testcase name="setId" classname="models.UsersTest" time="0.0"/>
+  <testcase name="setAddressSetsCorrectAddress" classname="models.UsersTest" time="0.001"/>
+  <testcase name="getZipReturnsCorrectZip" classname="models.UsersTest" time="0.0"/>
+  <testcase name="setName" classname="models.UsersTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

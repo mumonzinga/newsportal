@@ -54,12 +54,14 @@ public class NewsTest {
         testNews.setRating(1);
         assertNotEquals(4, testNews.getRating());
     }
-
+/*
     @Test
     public void getDepartmentId() {
         News testNews = setupNews();
         assertEquals(1, testNews.getDepartmentId());
     }
+
+ */
 
     @Test
     public void setDepartmentId() {
